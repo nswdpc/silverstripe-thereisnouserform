@@ -1,0 +1,9 @@
+---
+Name: nswdpc-thereisnouserform
+---
+Page:
+  hide_ancestor: 'SilverStripe\UserForms\Model\UserDefinedForm'
+SilverStripe\UserForms\Model\UserDefinedForm:
+  need_permission: true
+  extensions:
+    - 'NSWDPC\Utilities\ThereIsNoUserform\UserDefinedFormPageExtension'

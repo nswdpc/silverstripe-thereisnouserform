@@ -1,0 +1,28 @@
+{
+    "name": "nswdpc/silverstripe-thereisnouserform",
+    "description": "This module hides User Defined Form pages in the CMS when using silverstripe/userforms together with dnadesign/silverstripe-elemental-userforms",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "forms",
+        "userform",
+        "elemental",
+        "elemental-userforms"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "James Ellis",
+            "homepage": "https://dpc.nsw.gov.au",
+            "role": "Developer"
+        },
+        {
+            "name": "Mark Taylor",
+            "homepage": "https://dpc.nsw.gov.au",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "dnadesign/silverstripe-elemental-userforms": "^3"
+    }
+}

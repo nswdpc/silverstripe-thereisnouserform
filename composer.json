@@ -23,6 +23,6 @@
         }
     ],
     "require": {
-        "dnadesign/silverstripe-elemental-userforms": "^3"
+        "dnadesign/silverstripe-elemental-userforms": "^4"
     }
 }

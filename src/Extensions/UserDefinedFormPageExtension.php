@@ -12,7 +12,7 @@ use SilverStripe\Core\Extension;
  */
 class UserDefinedFormPageExtension extends Extension
 {
-    public function canCreate($member, $context = [])
+    public function canCreate($member, $context = []): bool
     {
         return false;
     }

@@ -13,11 +13,13 @@ If your project contains `dnadesign/silverstripe-elemental-userforms` already, a
 
 If it doesn't, add this module via composer and it will install the module and its requirements.
 
+Existing user defined form pages created prior to installing this module are still accessible.
+
 ## Installation
 
-The only support way of installing this module is via composer:
+The only supported way of installing this module is via composer:
 
-```shell
+```sh
 composer require nswdpc/silverstripe-thereisnouserform
 ```
 
@@ -31,7 +33,7 @@ Hopefully in the future this module won't be required.
 
 ## Maintainers
 
-+ [dpcdigital@NSWDPC:~$](https://dpc.nsw.gov.au)
++ PD Web Team
 
 ## Bugtracker
 

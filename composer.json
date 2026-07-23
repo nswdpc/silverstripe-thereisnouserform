@@ -31,6 +31,14 @@
         "phpstan/phpstan-phpunit": "^2",
         "rector/rector": "^2"
     },
+    "autoload": {
+        "psr-4": {
+            "NSWDPC\\Utilities\\ThereIsNoUserform\\": [
+                "src/Extensions/"
+            ],
+            "NSWDPC\\Utilities\\ThereIsNoUserform\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
         "phpstan-analyse": "./vendor/bin/phpstan analyse --ansi --no-progress --no-interaction --configuration vendor/nswdpc/ci-files/phpstan/.phpstan.silverstripe.neon src/ tests/",
         "rector-dryrun": "./vendor/bin/rector process --dry-run --ansi --config vendor/nswdpc/ci-files/rector/.rector.silverstripe_6_83.php src/ tests/",

@@ -14,7 +14,6 @@ use SilverStripe\UserForms\Model\UserDefinedForm;
  */
 class CanCreateTest extends SapphireTest
 {
-
     protected $usesDatabase = true;
 
     public function testCannotCreateUserDefinedForm(): void
